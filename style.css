@@ -265,3 +265,8 @@ body {
 	width: 580px;
 	margin-left: 700px;
 } */
+
+#skills2 #divskills ul li{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 19px;
+}
