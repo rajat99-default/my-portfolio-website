@@ -1,9 +1,9 @@
-body{
+body {
 	margin: 0px;
 	padding: 0px;
 }
 
-#navbar{
+#navbar {
 	display: flex;
 	justify-content: center;
 	background-image: url(https://itemsstore.net/html/trito/img/hero/1.jpg);
@@ -11,92 +11,93 @@ body{
 	padding-top: 22px;
 	padding-bottom: 10px;
 	border-bottom: 2px solid black;
-	
+
 }
 
-#navbar li a{
+#navbar li a {
 	text-decoration: none;
 	margin: 30px;
-	
+
 
 }
 
-#navbar li a img{
+#navbar li a img {
 	width: 130px;
-	margin-right:190px;
+	margin-right: 190px;
 }
 
-#download{
+#download {
 	margin-left: 200px;
-	background-color: rgb(21,21,92);
-	padding-top:13px;
+	background-color: rgb(21, 21, 92);
+	padding-top: 13px;
 	border-radius: 10px;
 	color: white;
 }
 
-#download a{
+#download a {
 	color: white;
 }
 
-#avatar{
+#avatar {
 	position: absolute;
-	
+
 	margin-right: -400px;
 	margin-top: 81px;
-	
+
 }
 
 
-#avatar img{
+#avatar img {
 	width: 500px;
 }
+
 /* #download a[
 	color: white
 ] */
 
 /* ======hero section======= */
 
-.hero{
+.hero {
 	display: flex;
 	justify-content: center;
 }
 
-.hero div img{
+.hero div img {
 	width: 550px;
 }
 
-.hero1{
+.hero1 {
 	font-size: 40px;
 	margin-left: -120px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
-.hero2{
+.hero2 {
 	font-size: 60px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	margin-left: -120px;
 }
 
-.hero3{
+.hero3 {
 	font-size: 30px;
 	margin-left: -120px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.hero4 span{
+.hero4 span {
 	background-color: rgb(16, 16, 95);
-	border: 1px solid black ;
+	border: 1px solid black;
 	color: white;
 	padding: 10px 25px 10px 25px;
 	margin-left: -120px;
 }
 
-.herodiv1{
+.herodiv1 {
 	margin-top: 130px;
 }
 
-.hero{
+.hero {
 	padding-top: 100px;
 	background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
 	padding-bottom: 150px;
@@ -135,68 +136,132 @@ body{
 
 /* END dedication */
 
-#client{
+#client {
 	padding-top: 50px;
-	
+
 }
 
 
-#clientnames{
+#clientnames {
 	display: flex;
 	background-color: #24315E;
 	padding-left: 250px;
 	padding-bottom: 60px;
-	
+
 }
 
 
-#h1{position: absolute;
+#h1 {
+	position: absolute;
 	font-weight: 700;
-    line-height: 1.2;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #24315E;
+	line-height: 1.2;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: #24315E;
 	margin-top: -35px;
 	margin-left: 65px;
 }
 
-#dedication{
+#dedication {
 	display: flex;
 	justify-content: center;
-	
+
 }
 
-#dedication1{
+#dedication1 {
 	position: absolute;
 	margin-left: -710px;
 	margin-top: 100px;
 }
-#dedication2{
+
+#dedication2 {
 	position: absolute;
 	margin-right: -50px;
 	margin-top: 100px;
 }
-#dedication3{
+
+#dedication3 {
 	position: absolute;
 	margin-right: -810px;
 	margin-top: 100px;
 }
 
-#dedicationlogo1{
+#dedicationlogo1 {
 	position: relative;
 	width: 65px;
 	margin-left: 213px;
 	margin-top: 50px;
 }
-#dedicationlogo2{
+
+#dedicationlogo2 {
 	position: absolute;
 	width: 65px;
 	margin-left: 595px;
 	margin-top: -70px;
 }
-#dedicationlogo3{
+
+#dedicationlogo3 {
 	position: absolute;
 	width: 65px;
 	margin-left: 965px;
 	margin-top: -70px;
 }
 
+
+#skills1 {
+	margin-top: 280px;
+	margin-left: 203px;
+}
+
+#skills11 {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 21px;
+	color: orangered;
+	position: absolute;
+	margin-top: -24px;
+}
+
+
+#skills12 {
+	color: rgb(30, 30, 77);
+	font-size: 60px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#skills13 {
+	margin-top: -29px;
+	position: absolute;
+	font-size: 19px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: rgb(15, 15, 71);
+}
+
+
+#skills2 div ul {
+	display: flex;
+	margin-left: 715px;
+}
+
+#skills2 div ul li {
+	margin: 19px;
+	border: 1px solid red;
+	padding: 20px 35px;
+
+}
+
+#skills2 {
+	margin-top: -280px;
+
+}
+
+
+#divskills {
+	background-image: url(https://itemsstore.net/html/trito/img/skills/1.jpg);
+
+}
+
+/* 
+#image{
+	position: absolute;
+	width: 580px;
+	margin-left: 700px;
+} */
