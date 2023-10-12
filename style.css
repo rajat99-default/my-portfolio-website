@@ -270,3 +270,99 @@ body {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 19px;
 }
+
+
+#work{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	margin-left: -100px;
+}
+
+
+#work div ul li h3{
+	font-size: 60px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: #24315E;
+	margin: 150px;
+	border-bottom: 2.6px solid blue;
+}
+
+#work div ul li span{
+	position: absolute;
+	font-size: 23px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: #24315E;
+	margin-left: 300px;
+	margin-top: -220px;
+}
+
+#about{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-image: url(https://itemsstore.net/html/trito/img/about/background.jpg);
+}
+
+#about div img{
+	margin-left: 200px;
+}
+
+#aboutme{
+	margin-left: 810px;
+	margin-top: -640px;
+
+}
+
+#aboutme h3{
+	position: absolute;
+	color: orangered;
+	margin-top: 70px;
+}
+#aboutme h1{
+	margin-top: 100px;
+	position: absolute;
+	color: #24315E;
+	font-size: 60px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#aboutme p{
+	margin-top: 270px;
+	position: absolute;
+	color: #24315E;
+	font-size: 18px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.anchor{
+	position: absolute;
+	margin-left: 810px;
+	margin-top: 410px;
+	/* border: 1px solid red; */
+	padding: 13px 35px;
+	background-color: #24315E;
+	color: white;
+	text-decoration: none;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.anchor:hover {
+    background-color: #ffffff; /* Change to the desired hover color */
+    color: #293d64; /* Change to the desired hover color */
+}
+
+.anchor1{
+	position: absolute;
+	padding: 40px 35px 40px 35px ;
+	background-color: #ffffff;
+	color: red;
+	text-decoration: none;
+	transition: background-color 0.3s ease, color 0.3s ease;	
+	border: 1px solid darkblue ;
+	margin-left: 130px;
+	margin-top: 400px;
+	font-size: 19px;
+}
+
+
+
