@@ -392,3 +392,22 @@ body {
 	margin-left: 100px;
 }
 
+
+#port div{
+	overflow: hidden;
+}
+
+#port div img:hover{
+	scale: 1.2;
+	transition: scale 0.5s;
+}
+
+#port1 div img:hover{
+	scale: 1.2;
+	transition: scale 0.5s;
+	overflow: hidden;
+}
+
+#port1 div{
+	overflow: hidden;
+}
